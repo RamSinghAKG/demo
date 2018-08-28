@@ -1,14 +1,272 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+    "propertyQuatiionanaireModules": [
+      {
+        "propertyQuestionnaireModuleGuid": "1",
+        "propertyQuestionnaireModuleName": "Test1",
+        "propertyQuestionnaireModuleDesc": "string",
+        "parentModuleGuid": "null",
+        "moduleOrder": "string",
+        "rowStatus": 1,
+        "propertyQuatiionanaireModules": [
+          {
+            "propertyQuestionnaireModuleGuid": "2",
+            "propertyQuestionnaireModuleName": "Basic Property Information",
+            "propertyQuestionnaireModuleDesc": "string",
+            "parentModuleGuid": "1",
+            "moduleOrder": "string",
+            "rowStatus": 1,
+            "createdBy": "string",
+            "createdOn": "2018-08-22T10:17:11.436Z",
+            "isExpanded": false,
+            "isReviewed": false,
+            "propertyQuestions": [
+              {
+                "propertyQuestionnaireGuid": "1",
+                "questionCode": "string",
+                "questionDesc": "string",
+                "questionLabel": "Hotel name",
+               
+                "questionConfig": {
+                  "field_type": "Text",
+                  "field_size": "20",
+                  "label": "Property Code",
+                  "minlength": 10,
+                  "maxlength": 20,
+                  "isUnEditable":true
+                },
+                "questionOrder": "string",
+                "parentQuestionGuid": "null",
+                "propertyProfileDataGuid": "string",
+                "propertyProfileGuid": "string",
+                "propertyQuestionGuid": "string",
+                "propertyAnswer": "string",
+                "isRequired": true,
+                "isRestricted": false,
+                "isHidden": false,
+                "rowStatus": 1,
+                "createdBy": "string",
+                "createdOn": "2018-08-22T10:17:11.436Z"
+              },
+              {
+                "propertyQuestionnaireGuid": "2",
+                "questionCode": "string",
+                "questionDesc": "string",
+                "questionLabel": "HNumber of beds",
+                "questionConfig": {
+                  "field_type": "Number",
+                  "field_size": "20",
+                  "label": "Property Code",
+                  "minlength": 10,
+                  "maxlength": 20,
+                  "isUnEditable":true
+                },
+                "questionOrder": "string",
+                "parentQuestionGuid": "1",
+                "propertyProfileDataGuid": "string",
+                "propertyProfileGuid": "string",
+                "propertyQuestionGuid": "string",
+                "propertyAnswer": "string",
+                "isRequired": true,
+                "isRestricted": false,
+                "isHidden": false,
+                "rowStatus": 1,
+                "createdBy": "string",
+                "createdOn": "2018-08-22T10:17:11.436Z"
+              },
+              {
+                "propertyQuestionnaireGuid": "2",
+                "questionCode": "string",
+                "questionDesc": "string",
+                "questionLabel": "Date of last guest room renovation",
+                "questionConfig": {
+                  "field_type": "Date",
+                  "field_size": "20",
+                  "label": "Date of last guest room renovation",
+                  "isUnEditable":false
+                },
+                "questionOrder": "string",
+                "parentQuestionGuid": "1",
+                "propertyProfileDataGuid": "string",
+                "propertyProfileGuid": "string",
+                "propertyQuestionGuid": "string",
+                "propertyAnswer": "string",
+                "isRequired": true,
+                "isRestricted": false,
+                "isHidden": false,
+                "rowStatus": 1,
+                "createdBy": "string",
+                "createdOn": "2018-08-22T10:17:11.436Z"
+              }
+            ]
+          },
+          {
+            "propertyQuestionnaireModuleGuid": "2",
+            "propertyQuestionnaireModuleName": "Property Description",
+            "propertyQuestionnaireModuleDesc": "string",
+            "parentModuleGuid": "1",
+            "moduleOrder": "string",
+            "rowStatus": 1,
+            "createdBy": "string",
+            "isExpanded": false,
+            "isReviewed": false,
+            "createdOn": "2018-08-22T10:17:11.436Z",
+            "propertyQuestions": [
+              {
+                "propertyQuestionnaireGuid": "1",
+                "questionCode": "string",
+                "questionDesc": "string",
+                "questionLabel": "Connecting rooms",
+                "questionConfig": {
+                  "field_type": "Text",
+                  "field_size": "20",
+                  "label": "Connecting rooms",
+                  "minlength": 10,
+                  "maxlength": 20,
+                  "isUnEditable":false
+                },
+                "questionOrder": "string",
+                "parentQuestionGuid": "null",
+                "propertyProfileDataGuid": "string",
+                "propertyProfileGuid": "string",
+                "propertyQuestionGuid": "string",
+                "propertyAnswer": "string",
+                "isRequired": false,
+                "isRestricted": false,
+                "isHidden": false,
+                "rowStatus": 1,
+                "createdBy": "string",
+                "createdOn": "2018-08-22T10:17:11.436Z"
+              },
+              {
+                "propertyQuestionnaireGuid": "2",
+                "questionCode": "string",
+                "questionDesc": "string",
+                "questionLabel": "HNumber of beds",
+                "questionConfig": {
+                  "field_type": "Number",
+                  "field_size": "20",
+                  "label": "Property Code",
+                  "minlength": 10,
+                  "maxlength": 20,
+                  "isUnEditable":true
+                },
+                "questionOrder": "string",
+                "parentQuestionGuid": "1",
+                "propertyProfileDataGuid": "string",
+                "propertyProfileGuid": "string",
+                "propertyQuestionGuid": "string",
+                "propertyAnswer": "string",
+                "isRequired": false,
+                "isRestricted": false,
+                "isHidden": false,
+                "rowStatus": 1,
+                "createdBy": "string",
+                "createdOn": "2018-08-22T10:17:11.436Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "propertyQuestionnaireModuleGuid": "1",
+        "propertyQuestionnaireModuleName": "Test2",
+        "propertyQuestionnaireModuleDesc": "string",
+        "parentModuleGuid": "null",
+        "moduleOrder": "string",
+        "rowStatus": 1,
+        "propertyQuatiionanaireModules": [
+          {
+            "propertyQuestionnaireModuleGuid": "2",
+            "propertyQuestionnaireModuleName": "Property Info",
+            "propertyQuestionnaireModuleDesc": "string",
+            "parentModuleGuid": "1",
+            "moduleOrder": "string",
+            "rowStatus": 1,
+            "createdBy": "string",
+            "isExpanded": true,
+            "isReviewed": false,
+            "createdOn": "2018-08-22T10:17:11.436Z",
+            "propertyQuestions": [
+              {
+                "propertyQuestionnaireGuid": "1",
+                "questionCode": "string",
+                "questionDesc": "string",
+                "questionLabel": "Hotel name",
+               
+                "questionConfig": {
+                  "field_type": "Text",
+                  "field_size": "20",
+                  "label": "Property Code",
+                  "minlength": 10,
+                  "maxlength": 20,
+                  "isUnEditable":true
+                },
+                "questionOrder": "string",
+                "parentQuestionGuid": "null",
+                "propertyProfileDataGuid": "string",
+                "propertyProfileGuid": "string",
+                "propertyQuestionGuid": "string",
+                "propertyAnswer": "string",
+                "isRequired": true,
+                "isRestricted": false,
+                "isHidden": false,
+                "rowStatus": 1,
+                "createdBy": "string",
+                "createdOn": "2018-08-22T10:17:11.436Z"
+              },
+              {
+                "propertyQuestionnaireGuid": "2",
+                "questionCode": "string",
+                "questionDesc": "string",
+                "questionLabel": "HNumber of beds",
+                "questionConfig": {
+                  "field_type": "Number",
+                  "field_size": "20",
+                  "label": "Property Code",
+                  "minlength": 10,
+                  "maxlength": 20,
+                  "isUnEditable":true
+                },
+                "questionOrder": "string",
+                "parentQuestionGuid": "1",
+                "propertyProfileDataGuid": "string",
+                "propertyProfileGuid": "string",
+                "propertyQuestionGuid": "string",
+                "propertyAnswer": "string",
+                "isRequired": true,
+                "isRestricted": false,
+                "isHidden": false,
+                "rowStatus": 1,
+                "createdBy": "string",
+                "createdOn": "2018-08-22T10:17:11.436Z"
+              },
+              {
+                "propertyQuestionnaireGuid": "2",
+                "questionCode": "string",
+                "questionDesc": "string",
+                "questionLabel": "Date of last guest room renovation",
+                "questionConfig": {
+                  "field_type": "Date",
+                  "field_size": "20",
+                  "label": "Date of last guest room renovation",
+                  "isUnEditable":false
+                },
+                "questionOrder": "string",
+                "parentQuestionGuid": "1",
+                "propertyProfileDataGuid": "string",
+                "propertyProfileGuid": "string",
+                "propertyQuestionGuid": "string",
+                "propertyAnswer": "string",
+                "isRequired": true,
+                "isRestricted": false,
+                "isHidden": false,
+                "rowStatus": 1,
+                "createdBy": "string",
+                "createdOn": "2018-08-22T10:17:11.436Z"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
-}
