@@ -1,4 +1,9 @@
 {
+    "posts": [
+        { "id": 1, "title": "Post 1" },
+        { "id": 2, "title": "Post 2" },
+        { "id": 3, "title": "Post 3" }
+    ],
     "propertyQuatiionanaireModules": [
       {
         "propertyQuestionnaireModuleGuid": "1",
@@ -47,32 +52,7 @@
                 "createdBy": "string",
                 "createdOn": "2018-08-22T10:17:11.436Z"
               },
-              {
-                "propertyQuestionnaireGuid": "2",
-                "questionCode": "string",
-                "questionDesc": "string",
-                "questionLabel": "HNumber of beds",
-                "questionConfig": {
-                  "field_type": "Number",
-                  "field_size": "20",
-                  "label": "Property Code",
-                  "minlength": 10,
-                  "maxlength": 20,
-                  "isUnEditable":true
-                },
-                "questionOrder": "string",
-                "parentQuestionGuid": "1",
-                "propertyProfileDataGuid": "string",
-                "propertyProfileGuid": "string",
-                "propertyQuestionGuid": "string",
-                "propertyAnswer": "string",
-                "isRequired": true,
-                "isRestricted": false,
-                "isHidden": false,
-                "rowStatus": 1,
-                "createdBy": "string",
-                "createdOn": "2018-08-22T10:17:11.436Z"
-              }
+              
             ]
           },
           {
