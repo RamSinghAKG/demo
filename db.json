@@ -1,6 +1,4 @@
-import questions from 'question.json'
-{
-  "questions": questions,
+{ 
   "save": {
           "code":"200",
           "data":[
