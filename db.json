@@ -1,4 +1,20 @@
 {
+  "save": {
+          "code":"200",
+          "data":[
+          {
+          "propertyProfileGuid":"38303100-0000-0000-0000-000000000000",
+          "createdOn":1535975408118,
+          "createdBy":"a9d8ab1b-ac62-11e8-89a7-e4b97a0445ec",
+          "updatedOn":1535975408118,
+          "updatedBy":"a9d8ab1b-ac62-11e8-89a7-e4b97a0445ec",
+          "rowStatus":1,
+          "hidden":false,
+          "required":false,
+          "restricted":false
+          }
+          ]
+      },
   "module": {
     "code": "200",
     "isReviewMode":false,
